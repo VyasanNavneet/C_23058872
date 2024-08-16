@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story 4 Headline</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            background: linear-gradient(to bottom, #002147, #00162e);
+            color: #f0f0f0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .home-link {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        .home-link:hover {
+            color: #bbbbbb;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 80px auto 40px;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+        }
+
+        .strap {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #bbbbbb;
+            margin-bottom: 2rem;
+        }
+
+        .content p {
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: #ffffff;
+            margin-top: 2rem;
+        }
+
+        .graph {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .graph img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .side-by-side {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 2rem;
+        }
+
+        .side-by-side .graph {
+            flex: 1;
+        }
+
+        /* Add this new section for the white background strip */
+        .white-strip {
+            background-color: rgba(255, 255, 255, 0.1); /* Adjust opacity if needed */
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #bbbbbb;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .strap {
+                font-size: 1rem;
+            }
+
+            .side-by-side {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="home-link">Home</a>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <h1>Understanding India in four charts</h1>
+            <p class="strap">These three sections with four charts visualise India's economic history and its transformation over decades.</p>
+            
+            <div class="content">
+                <p>This final section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie tellus dui, a convallis dui gravida quis. Duis pulvinar diam eu lectus commodo, id vulputate leo dictum. Suspendisse ornare purus luctus ex aliquam consectetur. Suspendisse euismod fermentum quam mattis molestie.</p>
+
+                <h2>Share of global industrial output</h2>
+                <div class="graph">
+                    <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/19015897"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19015897/thumbnail" width="100%" alt="bar-chart-race visualization" /></noscript></div>
+                <h2>Reducing dependency on agriculture</h2>
+                <div class="graph">
+                    <div class="flourish-embed flourish-pictogram" data-src="visualisation/18972045"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/18972045/thumbnail" width="100%" alt="pictogram visualization" /></noscript></div>                </div>
+                <p>Since 1991, the manufacturing sector in India has almost doubled.</p>
+
+                <!-- Wrap this section in a white strip -->
+                <div class="white-strip">
+                    <h2>Population engaged in the manufacturing sector</h2>
+                    <div class="side-by-side">
+                        <div class="graph">
+                            <iframe title="People Engaged in Manufacturing [2004]" aria-label="Map" id="datawrapper-chart-DPWhC" src="https://datawrapper.dwcdn.net/DPWhC/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="756" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+                            </script>
+                            </div>
+                        <div class="graph">
+                            <iframe title="People engaged in Manufacturing [2023]" aria-label="Map" id="datawrapper-chart-kAN3U" src="https://datawrapper.dwcdn.net/kAN3U/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="611" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+                            </script>                            </script>                    
+                        </div>
+                    </div>
+                    <p>In 2005, the population engaged in the manufacturing sector was half of what it is presently. This data, from the Reserve Bank of India, shows statewise distribution of the population engaged in manufacturing. In Maharashtra, Gujarat, Uttar Pradesh and Tamil Nadu the manufacturing workforce has doubled.</p>
+                </div>
+            </div>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Navneet Vyasan/ Submitted to Cardiff University.</p>
+    </footer>
+</body>
+</html>

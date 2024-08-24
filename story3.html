@@ -67,42 +67,22 @@
 
         .image-container {
             width: 100%;
-            height: 400px;
             position: relative;
-            overflow: hidden;
             margin: 2rem 0;
         }
 
         .image-container img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            opacity: 0;
-            transition: opacity 1s ease-in-out;
-        }
-
-        .image-container img.active {
-            opacity: 1;
-        }
-
-        figure {
-            margin: 2rem 0;
-        }
-
-        img {
             max-width: 100%;
             height: auto;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
-        figcaption {
+        .caption {
             margin-top: 0.5rem;
             text-align: center;
             color: #bbbbbb;
+            font-size: 14px;
             font-style: italic;
         }
 
@@ -129,62 +109,52 @@
     
     <main>
         <article>
-            <h1>Manufacturing a Dream: Spooked by Local Unions, Foxconn India Hires Workforce from Far-Off Towns</h1>
+            <h1>Manufacturing a dream: spooked by local unions, Foxconn India hires workforce from far-off towns</h1>
             <h2 class="standfirst">The company is eliminating any risk of productivity standstill as it plans to scale up its India operations</h2>
             <p>By Navneet Vyasan</p>
             <div class="content">
                 <div class="image-container">
-                    <img src="dalle.webp" alt="Transition image 1" class="active">
-                    <img src="micron.jpeg" alt="Transition image 2">
-                    <img src="foxconn.png" alt="Transition image 3">
+                    <img src="dalle.webp" alt="Representative image by Chat GPT DALL-E">
+                    <p class="caption">Representative image by Chat GPT DALL-E</p>
                 </div>
 
-                <p>Foxconn, the Taiwanese electronics giant, is going out of its way to hire employees from towns as far away from its manufacturing plant as possible. This is to avoid any altercations with local labour unions. Its Sriperumbudur plant is surrounded by manufacturing plants owned by Samsung, TATA and Yamaha among other local ones. There is a presence of powerful unions which oversee the working conditions of most of the locally employed workforce. This is happening at a time when the company is planning to scale up its operations by manufacturing advanced semiconductors and iPhone Pro models.</p>
+                <p>Foxconn, the Taiwanese electronics giant, is going out of its way to hire employees from towns far from its manufacturing plant to avoid potential altercations with local labour unions. Its Sriperumbudur factory, surrounded by other manufacturing plants owned by Samsung, TATA, Yamaha, and local companies, faces the challenge of powerful unions overseeing the local workforce. This comes as the company expands operations to manufacture advanced semiconductors and iPhones.</p>
+                
+                <p>Lata (name changed), 26, is driven to the plant five days a week from Palur, 29 kilometers away. “I feel as if I am transported into a much better world. One where technology is all around. I like being here,” she says. She was offered the job after being approached by a hiring agent in a WhatsApp group. The company covers her travel, accommodation, and food expenses.</p>
+                
+                <p>“My previous job required me to work in a much more shanty building in the heat. The conditions are much better here,” says Lata, who was previously employed in textile manufacturing.</p>
+                
+                <p>While this seems like a favorable turn of events for one worker, a former HR manager at the company revealed that this is part of a broader strategy.</p>
+                
+                <p>Satish Paul, a former Foxconn HR manager at the Sriperumbudur factory, explains that the company is eliminating potential disruptions to its expansion plans, particularly from local labour unions. Many locals, employed in the town’s manufacturing plants, are part of these unions. “If something goes wrong, they are not prepared to handle it,” says Paul, pointing to a recent incident involving Wistron, a competitor. Wistron's Bangalore factory was vandalized by employees and union members after it failed to pay the agreed-upon wage, underpaying by 20 GBP per month.</p>
+                
+                <p>In March, a Reuters investigation revealed that Foxconn’s Sriperumbudur factory had systematically rejected married women in its hiring process. The report suggested that this unsaid rule was to ensure that women would not take maternity leave, which the company believes could affect productivity.</p>
 
-                <p>Lata (name changed), is driven into the plant five days a week from Palur, 29kms from the location. “I feel as if I am transported into a much better world. One where technology is all around. I like being here; a young person should be around technology.” She was offered the job after being approached by a hiring agent in a WhatsApp group. The cost of travel, accommodation and food is handled by the company.</p>
-
-                <p>“My previous job required me to work in a much more shanty building in the heat. The conditions are much better here,” says the employee who was previously employed in textile manufacturing.</p>
-
-                <p>From the outset, this does seem to be a favorable turn of events for her. However, a former employee revealed that this is part of a larger ploy.</p>
-
-                <p>Satish Paul, former Foxconn HR manager, says that the company is vigorously expediting its plans to scale up its manufacturing capacity by eliminating any possible disruption. The major one being local labour unions. Natives of Sriperumbudur, mostly employed by manufacturing plants in the town, are part of some or the other union. Hiring from this workforce worries the company. “If something goes wrong, they are not prepared to handle it.” This seems to be a learning from a recent case involving Wistron, its competitor. The company had its Bangalore factory vandalized by its employees and members of local labour unions after it failed to pay the agreed-upon wage. The employees were paid 20 GBP less than what was promised in the monthly contract.</p>
-
-                <p>In March 2024, a Reuters investigation revealed that Foxconn has systematically filtered out married women. This unsaid hiring rule, the report said, was to ensure that women do not opt for maternity leave which the company believes will affect its productivity.</p>
-
-                <p>On being asked if this is another one of the company’s measures to mitigate the risk of productivity stalling, Paul responded in the affirmative. “Mobilise” is the word Paul used in his conversation with us. “The company tries to avoid upsetting any community which can mobilise the unions and stage protests.” This, he believes, can bring the company’s production to a standstill.</p>
-
-                <div class="flourish-embed flourish-chart" data-src="visualisation/19122145"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19122145/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
-
-                <p>The company employs 17,000 people and is responsible for producing a significant chunk of India-made iPhones. The current salary of 15,000 INR (GBP 150) per month for assembly workers including lodging and travel provides a much better standard of living for them.</p>
-
-                <p>Babita Kumari, who works in corporate labour law, says this is not a new phenomenon. “Many companies try to avoid local labour unions, viewing them as potential disruptors to business operations due to strikes and demands that can increase costs. Unions can indeed disrupt production, particularly when negotiations break down or when they are influenced by political agendas. This is especially common in sectors like manufacturing and transport.”</p>
-
-                <p>Labour Unions fear a situation where Indian workers are exploited in the same way as in China. It is harder to estimate the salary of these workers for they are mostly hired on contract. But Paul says the salary in 2000 was 180,000 rupees and is around 204,000 rupees. This is below the state Tamil Nadu’s per capita and slightly more than the minimum wage in the state. In comparison, China’s long history of manufacturing has ensured that the pay is staggeringly above that of India.</p>
-
-                <p>Foxconn chairman, who was in India to inaugurate a new 18,000 capacity hostel complex in the vicinity of the plant, refused to take questions post a public event. Rajput says there is certainly a lack of interest on the part of the government to enforce strict regulations. Why this is can be subject to conjecture. “In contrast, the corporate sector, with its skilled workforce and stricter regulatory scrutiny, tends to adhere better to labor standards and provides stronger legal protections for employees.”</p>
-
-                <p>The company has not responded to requests inquiring clarification on its hiring process.</p>
-            </div>
+                <div class="flourish-embed flourish-chart" data-src="visualisation/19122145">
+                    <script src="https://public.flourish.studio/resources/embed.js"></script>
+                    <noscript>
+                        <img src="https://public.flourish.studio/visualisation/19122145/thumbnail" width="100%" alt="chart visualization" />
+                    </noscript>
+                </div>
+                
+                <p>Paul confirms that this looks like another measure by the company to mitigate the risk of productivity stalling. “The company tries to avoid upsetting any community that could mobilize unions and stage protests,” he explains. Such mobilization, he believes, could bring production to a standstill.</p>
+                
+                <p>The company employs 17,000 people at its Sriperumbudur plant, producing a significant portion of India-made iPhones. The monthly salary of 15,000 INR (GBP 150) for assembly workers, including lodging and travel, provides a better standard of living compared to other jobs.</p>
+                
+                <p>Babita Kumari, an expert in corporate labour law, notes that this strategy is not new. “Many companies try to avoid local labour unions, viewing them as potential disruptors to business operations due to strikes and demands that can increase costs. Unions can indeed disrupt production, particularly when negotiations break down or when they are influenced by political agendas. This is especially common in sectors like manufacturing and transport.”</p>
+                
+                <p>Labour unions fear that Indian workers may be exploited similarly to those in China. Estimating the salaries of these workers is difficult, as most are hired on contract. Paul mentions that while the salary in 2000 was 180,000 rupees annually, it is now around 204,000 rupees—below Tamil Nadu’s per capita income and only slightly above the state’s minimum wage. In comparison, China’s long history of manufacturing has resulted in significantly higher wages.</p>
+                
+                <p>Foxconn chairman, Terry Gou, who was in India on August 17th to inaugurate a new 18,000-capacity hostel complex near the plant, declined to answer questions from journalists. Kumari argues that the government fails to enforce labour regulations. “In contrast, the corporate sector, with its skilled workforce and stricter regulatory scrutiny, tends to adhere better to labor standards and provides stronger legal protections for employees.”</p>
+                
+                <p>The company has not responded to requests for clarification on its hiring process.</p>
+                
+            </div>                
         </article>
     </main>
     
     <footer>
         <p>&copy; 2024 Navneet Vyasan/ Submitted to Cardiff University.</p>
     </footer>
-
-    <script>
-        function transitionImages() {
-            const images = document.querySelectorAll('.image-container img');
-            let currentIndex = 0;
-
-            setInterval(() => {
-                images[currentIndex].classList.remove('active');
-                currentIndex = (currentIndex + 1) % images.length;
-                images[currentIndex].classList.add('active');
-            }, 3000); // Image transition.
-        }
-
-        window.onload = transitionImages;
-    </script>
 </body>
 </html>

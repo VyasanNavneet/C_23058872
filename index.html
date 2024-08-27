@@ -16,6 +16,7 @@
             height: 100%;
             overflow: auto;
             background-color: rgba(0,0,0,0.4);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         .popup-content {
             background-color: #fefefe;
@@ -24,6 +25,10 @@
             border: 1px solid #888;
             width: 80%;
             max-width: 600px;
+            color: #333; 
+        }
+        .popup-content h2 {
+            color: #000; 
         }
         .close {
             color: #aaa;
@@ -36,6 +41,17 @@
         .close:focus {
             color: black;
             text-decoration: none;
+        }
+        #aboutBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -56,13 +72,14 @@
         </div>
     </div>
 
-    <button class="about-btn" onclick="openAbout()">About</button>
+    <button id="aboutBtn" onclick="openPopup()">About</button>
 
-    <div id="about-popup" class="popup">
+    <div id="aboutPopup" class="popup">
         <div class="popup-content">
-            <span class="close" onclick="closeAbout()">&times;</span>
-            <h2>About</h2>
-            <p>This project - through four articles - explores the diverse landscape of India's semiconductor and electric vehicles manufacturing and the people involved in this process.</p>
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2>About This Project</h2>
+            <p>ID: C23058872</p>
+            <p>This project - through four stories - explores the reality of India's standing as a semiconductor and EV manufacturing alternative to China. As countries slowly diversify their manufacturing chains, I have analysed the financial statements and spoken to industry experts to understand how feasable is this target. Through a series of articles and data visualizations, the aim is to provide a comprehensive overview of India's manufacturing capabilities and challenges.</p>
         </div>
     </div>
 
@@ -71,12 +88,19 @@
             window.location.href = url;
         }
 
-        function openAbout() {
-            document.getElementById('about-popup').style.display = 'block';
+        function openPopup() {
+            document.getElementById("aboutPopup").style.display = "block";
         }
 
-        function closeAbout() {
-            document.getElementById('about-popup').style.display = 'none';
+        function closePopup() {
+            document.getElementById("aboutPopup").style.display = "none";
+        }
+
+        // To close the popup 
+        window.onclick = function(event) {
+            if (event.target == document.getElementById("aboutPopup")) {
+                closePopup();
+            }
         }
     </script>
 </body>

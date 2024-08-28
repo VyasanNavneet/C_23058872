@@ -89,12 +89,37 @@
             flex: 1;
         }
 
-        /* Add this new section for the white background strip */
         .white-strip {
-            background-color: rgba(255, 255, 255, 0.1); /* Adjust opacity if needed */
+            background-color: rgba(255, 255, 255, 0.9);
             padding: 20px;
             border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #333333;
         }
+
+        .white-strip h2 {
+            color: #222222;
+            margin-bottom: 15px; 
+        }
+
+        .white-strip p {
+            color: #444444;
+            margin-top: 15px; 
+            margin-bottom: 0; 
+        }
+
+        .side-by-side {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 15px; 
+        }
+
+        .side-by-side .graph {
+            flex: 1;
+            margin-bottom: 0; 
+        }
+
 
         footer {
             text-align: center;
@@ -128,32 +153,30 @@
     <main>
         <article>
             <h1> Visualising India's economic transition</h1>
-            <p class="strap">These three sections explore India's economic evolution, tracing its journey from an agrarian economy to an emergin manufacturing hub. This manufacturing sector is now undergoing a significant transformation, positioning India as a high-tech supply base.</p>
+            <p class="strap">These three sections aim to visualise India's economic history and its transformation from an agrarian economy to a manufacturing base. It is this manufacturing sector that is now being transformed into a high-tech supply base</p>
             
             <div class="content">
                 <h2>Share of global industrial output</h2>
                 <div class="graph">
                     <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/19015897"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19015897/thumbnail" width="100%" alt="bar-chart-race visualization" /></noscript></div>
-                    <p> China remains the undisputed manufacturing hub. But since the turn of the century, India has been able to successfully mobilise its population in manufacturing. Companies diversifying their manufacturing chain are hoping to take advantage of this massive workforce.</p>
+                    <p> China remains the undisputed manufacturing hub. But since the turn of the century, India has been able to successfully mobilise its population in manufacturing. Companies diversifying their manufacturing chains are hoping to take advantage of this massive workforce.</p>
 
                 <h2>Reducing dependency on agriculture</h2>
                 <div class="graph">
                     <div class="flourish-embed flourish-pictogram" data-src="visualisation/18972045"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/18972045/thumbnail" width="100%" alt="pictogram visualization" /></noscript></div>                </div>
-                <p> Successive Indian governments have slowly tried to push India's massive workforce away from agriculture. Particularly, post 1991's economic reforms, a burgeoning services sector gave rise to a new middle class. The chart starts from 1991, when India liberalised its economy and opened itself up to trade and investment, marking a significant shift towards a more market-oriented economic model. </p>
+                <p> Successive Indian governments have slowly tried to push India's massive workforce away from agriculture. Particularly, post 1991's economic reforms, a burgeoning services sector gave rise to a new middle class.</p>
 
                 <div class="white-strip">
                     <h2>Population engaged in the manufacturing sector</h2>
                     <div class="side-by-side">
                         <div class="graph">
-                        <iframe title="People Engaged in Manufacturing [2004]" aria-label="Map" id="datawrapper-chart-DPWhC" src="https://datawrapper.dwcdn.net/DPWhC/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="783" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-                            </script>
-                            </div>
+                            <iframe title="People Engaged in Manufacturing [2004]" aria-label="Map" id="datawrapper-chart-DPWhC" src="https://datawrapper.dwcdn.net/DPWhC/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="783" data-external="1"></iframe>
+                        </div>
                         <div class="graph">
-                            <iframe title="People engaged in Manufacturing [2023]" aria-label="Map" id="datawrapper-chart-kAN3U" src="https://datawrapper.dwcdn.net/kAN3U/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="611" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-                            </script>                            </script>                    
+                            <iframe title="People engaged in Manufacturing [2023]" aria-label="Map" id="datawrapper-chart-kAN3U" src="https://datawrapper.dwcdn.net/kAN3U/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="611" data-external="1"></iframe>
                         </div>
                     </div>
-                    <p>This state-wise distribution of population breaks down the first chart to give a much better understanding of how in almost each state, the population engaged in manufacturing has doubled in a span of almost two decades.</p>
+                    <p>This state-wise distribution of population breaks down the first chart to give a much better understanding of how in almost every state, the population engaged in manufacturing has doubled in a span of almost two decades.</p>
                 </div>
             </div>
         </article>
